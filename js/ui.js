@@ -35,7 +35,7 @@ const ui = {
     li.classList.add("li-pensamento");
 
     const iconeAspas = document.createElement("img");
-    iconeAspas.setAttribute("src", "/imagens/aspas-azuis.png");
+    iconeAspas.setAttribute("src", "imagens/aspas-azuis.png");
     iconeAspas.setAttribute("alt", "Aspas azuis");
     iconeAspas.classList.add("icone-aspas");
 
@@ -52,7 +52,7 @@ const ui = {
     botaoEditar.onclick = () => ui.preencherFormulario(pensamento.id);
 
     const iconeEditar = document.createElement("img");
-    iconeEditar.src = "/imagens/icone-editar.png";
+    iconeEditar.src = "imagens/icone-editar.png";
     iconeEditar.alt = "Editar";
     botaoEditar.appendChild(iconeEditar);
 
@@ -69,7 +69,7 @@ const ui = {
     };
 
     const iconeExcluir = document.createElement("img");
-    iconeExcluir.src = "/imagens/icone-excluir.png";
+    iconeExcluir.src = "imagens/icone-excluir.png";
     iconeExcluir.alt = "Excluir";
     botaoExcluir.appendChild(iconeExcluir);
 
