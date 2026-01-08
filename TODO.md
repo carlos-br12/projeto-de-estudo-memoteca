@@ -1,0 +1,3 @@
+- [ ] Update image paths in index.html from absolute to relative
+- [ ] Update background image path in css/styles.css from absolute to relative
+- [ ] Update image paths in js/ui.js from absolute to relative
