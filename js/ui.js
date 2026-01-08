@@ -52,7 +52,7 @@ const ui = {
     botaoEditar.onclick = () => ui.preencherFormulario(pensamento.id);
 
     const iconeEditar = document.createElement("img");
-    iconeEditar.src = "/imagens/icone-editar.png";
+    iconeEditar.src = "imagens/icone-editar.png";
     iconeEditar.alt = "Editar";
     botaoEditar.appendChild(iconeEditar);
 
